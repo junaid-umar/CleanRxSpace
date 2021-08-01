@@ -1,17 +1,24 @@
+import dependencies.Test
+import dependencies.Versions
+import dependencies.AndroidX
+
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id "de.mannodermaus.android-junit5"
 }
 
 android {
-    compileSdk 30
+    compileSdk Versions.compileSdk
 
     defaultConfig {
         applicationId "com.android.space"
-        minSdk 21
-        targetSdk 30
-        versionCode 1
-        versionName "1.0"
+        minSdk Versions.minSdk
+        targetSdk Versions.targetSdk
+        versionCode Versions.versionCode
+        versionName Versions.versionName
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -27,17 +34,39 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = Versions.jvmTarget
+        useIR = true
     }
 }
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.3.2'
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'com.google.android.material:material:1.3.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation AndroidX.core_ktx
+    implementation AndroidX.app_compat
+    implementation AndroidX.constraint_layout
+    implementation AndroidX.ui_tooling
+    implementation AndroidX.nav_fragment_ktx // will remove later
+    implementation AndroidX.nav_ui_ktx // will remove later
+    implementation AndroidX.room_runtime
+    implementation AndroidX.room_ktx
+    implementation AndroidX.datastore
+
+    implementation AndroidX.material
+    implementation AndroidX.hilt_android
+
+    implementation AndroidX.kotlin_stdlib
+
+    implementation AndroidX.retrofit
+    implementation AndroidX.retrofit_gson
+    implementation AndroidX.okHttp
+    implementation AndroidX.leak_canary
+
+    kapt AndroidX.hilt_compiler
+    kapt AndroidX.room_compiler
+
+    // TESTING
+    testImplementation Test.jupiter_api
+    testRuntimeOnly Test.jupiter_engine
+    testImplementation Test.mock_web_server
+
 }
