@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.compose.ui:ui-text:1.0.0-alpha07@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/49b541a951873d1fa4b72c56488dff01/transformed/jetified-ui-text-1.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/af4a30111de5b7ff64c8d0ccbbe40f65/transformed/jetified-ui-text-1.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c460b666aa42ddc34f2d8437688c578b/transformed/jetified-ui-text-1.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c460b666aa42ddc34f2d8437688c578b/transformed/jetified-ui-text-1.0.0-alpha07/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c460b666aa42ddc34f2d8437688c578b/transformed/jetified-ui-text-1.0.0-alpha07/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.ui/ui-text/1.0.0-alpha07/5cec1f2f62c629b909045856d94498d1923d3696/ui-text-1.0.0-alpha07-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

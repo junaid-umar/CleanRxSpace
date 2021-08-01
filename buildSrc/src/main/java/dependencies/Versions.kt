@@ -31,5 +31,5 @@ object Versions {
 
     const val junit5 = "1.7.1.1"
     const val junit_jupiter = "5.7.0"
-
+    const val truth="1.1.3"
 }

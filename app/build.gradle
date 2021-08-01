@@ -68,5 +68,7 @@ dependencies {
     testImplementation Test.jupiter_api
     testRuntimeOnly Test.jupiter_engine
     testImplementation Test.mock_web_server
+    testImplementation Test.truth_google
+
 
 }

@@ -6,5 +6,7 @@ object Test {
 
     const val mock_web_server = "com.squareup.okhttp3:mockwebserver:${Versions.okHttp}"
     const val okHttp = "com.squareup.okhttp3:okhttp:${Versions.okHttp}"
+    const val truth_google = "com.google.truth:truth:${Versions.truth}"
+
 
 }
