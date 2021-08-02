@@ -3,9 +3,11 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0fb77d549e6db7ee2a2039f853182cd5/transformed/jetified-datastore-preferences-1.0.0-alpha06/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/34050dbc1f08b20eb48be4aee28de5b1/transformed/jetified-datastore-preferences-1.0.0-alpha06/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c7e7e9a497817f880b947ba7a9e77224/transformed/jetified-datastore-preferences-1.0.0-alpha06/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c7e7e9a497817f880b947ba7a9e77224/transformed/jetified-datastore-preferences-1.0.0-alpha06/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c7e7e9a497817f880b947ba7a9e77224/transformed/jetified-datastore-preferences-1.0.0-alpha06/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7fd1dedaac421c969f6b70bc9d3163c2/transformed/jetified-datastore-preferences-1.0.0-alpha06/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1e0708d83c6e7df96fb42cf567d7df60/transformed/jetified-datastore-preferences-1.0.0-alpha06/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1e0708d83c6e7df96fb42cf567d7df60/transformed/jetified-datastore-preferences-1.0.0-alpha06/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1e0708d83c6e7df96fb42cf567d7df60/transformed/jetified-datastore-preferences-1.0.0-alpha06/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

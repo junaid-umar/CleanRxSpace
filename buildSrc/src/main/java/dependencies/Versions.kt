@@ -24,12 +24,16 @@ object Versions {
     const val retrofit = "2.9.0"
     const val okHttp = "4.9.0"
 
-    const val room =  "2.2.6"
+    const val rxjava = "3.0.0"
+
+    const val room = "2.2.6"
     const val datastore = "1.0.0-alpha06"
 
     const val leak_canary = "2.5"
 
     const val junit5 = "1.7.1.1"
     const val junit_jupiter = "5.7.0"
-    const val truth="1.1.3"
+    const val truth = "1.1.3"
+    const val mockito = "1.10.19"
+
 }

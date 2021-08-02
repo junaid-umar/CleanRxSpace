@@ -16,6 +16,7 @@ object AndroidX {
     const val nav_ui_ktx = "androidx.navigation:navigation-ui-ktx:${Versions.nav_component}"
 
 
+    const val rxjava ="io.reactivex.rxjava3:rxjava:${Versions.rxjava}"
 
     const val room_ktx = "androidx.room:room-ktx:${Versions.room}"
     const val room_runtime = "androidx.room:room-runtime:${Versions.room}"
