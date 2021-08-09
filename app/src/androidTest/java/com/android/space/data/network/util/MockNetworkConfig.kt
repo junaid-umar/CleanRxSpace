@@ -6,5 +6,5 @@ import java.net.HttpURLConnection
 object MockNetworkConfig {
     val baseUrl = BuildConfig.BASE_URL
     val randomBaseUrl = "https://unabletoresolvehost.com/"
-    val status = HttpURLConnection.HTTP_OK
+    val status = HttpURLConnection.HTTP_CLIENT_TIMEOUT
 }

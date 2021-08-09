@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.runtime:runtime:1.0.0-alpha07@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/14a3997cd76ae9a6c8c9c6672d1d6895/transformed/jetified-runtime-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5f94e837d5fd210153555be4f15f16bd/transformed/jetified-runtime-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/54a47a43ba5685e61fe3c5a5de950632/transformed/jetified-runtime-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ba868686cb9462e471c250998b2679ef/transformed/jetified-runtime-1.0.0-alpha07/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ba868686cb9462e471c250998b2679ef/transformed/jetified-runtime-1.0.0-alpha07/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ba868686cb9462e471c250998b2679ef/transformed/jetified-runtime-1.0.0-alpha07/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/053e50eca475721a377eb0aea0f28f5c/transformed/jetified-runtime-1.0.0-alpha07/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/053e50eca475721a377eb0aea0f28f5c/transformed/jetified-runtime-1.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/053e50eca475721a377eb0aea0f28f5c/transformed/jetified-runtime-1.0.0-alpha07/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

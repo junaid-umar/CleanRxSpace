@@ -21,7 +21,7 @@ android {
         versionCode Versions.versionCode
         versionName Versions.versionName
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "com.android.space.data.AppTestRunner"
     }
 
     buildTypes {
@@ -46,6 +46,11 @@ android {
         jvmTarget = Versions.jvmTarget
         useIR = true
     }
+
+    packagingOptions{
+        exclude 'META-INF/gradle/incremental.annotation.processors'
+    }
+
 }
 
 dependencies {
@@ -98,10 +103,11 @@ dependencies {
     androidTestImplementation Test.junit4
     androidTestImplementation Test.test_core
     androidTestImplementation Test.mock_web_server
-
+    androidTestImplementation Test.core_testing
+    androidTestImplementation Test.hilt_testing
+    kaptAndroidTest Test.hilt_android_compiler
     implementation Test.test_runner
 
-    androidTestImplementation Test.core_testing
 
 
 }

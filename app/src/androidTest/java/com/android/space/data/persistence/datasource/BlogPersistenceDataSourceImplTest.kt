@@ -1,41 +1,35 @@
 package com.android.space.data.persistence.datasource
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import androidx.room.Room
-import androidx.test.core.app.ApplicationProvider
-import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.android.space.data.persistence.FakeDataUtil
-import com.android.space.data.persistence.dao.BlogDao
 import com.android.space.data.persistence.database.AppDatabase
-import com.android.space.data.persistence.entity.BlogEntityMapper
+import dagger.hilt.android.testing.HiltAndroidRule
+import dagger.hilt.android.testing.HiltAndroidTest
 import org.junit.After
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import org.junit.runner.RunWith
+import javax.inject.Inject
 
-@RunWith(AndroidJUnit4::class)
+@HiltAndroidTest
 class BlogPersistenceDataSourceImplTest {
+
+    @get:Rule
+    var hiltRule = HiltAndroidRule(this)
 
     @get:Rule
     val instantTaskExecutorRule = InstantTaskExecutorRule()
 
-    private lateinit var appDatabase: AppDatabase
-    private lateinit var blogDao: BlogDao
-    private lateinit var blogEntityMapper: BlogEntityMapper
-    private lateinit var blogPersistenceDataSource: BlogPersistenceDataSourceImpl
+    @Inject
+    lateinit var appDatabase: AppDatabase
+
+    @Inject
+    lateinit var blogPersistenceDataSource: BlogPersistenceDataSourceImpl
 
     @Before
     fun setUp() {
-        appDatabase = Room.inMemoryDatabaseBuilder(
-            ApplicationProvider.getApplicationContext(),
-            AppDatabase::class.java
-        ).allowMainThreadQueries().build()
-        blogDao = appDatabase.blogDao()
-        blogEntityMapper = BlogEntityMapper()
-        blogPersistenceDataSource = BlogPersistenceDataSourceImpl(
-            blogDao, blogEntityMapper
-        )
+        hiltRule.inject()
+
     }
 
     @After

@@ -1,38 +1,39 @@
 package com.android.space.data.persistence.dao
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import androidx.room.Room
-import androidx.test.core.app.ApplicationProvider
-import androidx.test.ext.junit.runners.AndroidJUnit4
-import androidx.test.filters.SmallTest
 import com.android.space.data.persistence.FakeDataUtil
 import com.android.space.data.persistence.FakeDataUtil.Common.page
 import com.android.space.data.persistence.FakeDataUtil.Common.pageSize
 import com.android.space.data.persistence.FakeDataUtil.Common.querySearch
 import com.android.space.data.persistence.database.AppDatabase
 import com.android.space.data.persistence.entity.BlogEntity
+import dagger.hilt.android.testing.HiltAndroidRule
+import dagger.hilt.android.testing.HiltAndroidTest
 import org.junit.After
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import org.junit.runner.RunWith
+import javax.inject.Inject
 
-@RunWith(AndroidJUnit4::class)
-@SmallTest
+
+@HiltAndroidTest
 class BlogDaoTest {
+
+    @get: Rule
+    var hiltRule = HiltAndroidRule(this)
 
     @get: Rule
     var instantTaskExecutorRule = InstantTaskExecutorRule()
 
-    private lateinit var database: AppDatabase
-    private lateinit var dao: BlogDao
+    @Inject
+    lateinit var database: AppDatabase
+
+    @Inject
+    lateinit var dao: BlogDao
 
     @Before
     fun setUp() {
-        database = Room.inMemoryDatabaseBuilder(
-            ApplicationProvider.getApplicationContext(),
-            AppDatabase::class.java
-        ).allowMainThreadQueries().build()
+        hiltRule.inject()
         dao = database.blogDao()
     }
 

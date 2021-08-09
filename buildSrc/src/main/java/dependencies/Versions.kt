@@ -19,7 +19,8 @@ object Versions {
     const val nav_component = "2.3.2"
     const val material = "1.4.0"
 
-    const val hilt = "2.37"
+    const val hilt = "2.38.1"
+    const val hilt_test = "2.38.1"
 
     const val retrofit = "2.9.0"
     const val okHttp = "4.9.0"

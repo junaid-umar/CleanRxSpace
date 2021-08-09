@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.animation:animation-core:1.0.0-alpha07@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d050726fabc056645675b7ea227272c6/transformed/jetified-animation-core-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5efdcc68e03f52d74d2baf36a76347d2/transformed/jetified-animation-core-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a9e77713c1ae25e01e07ba2452e696cf/transformed/jetified-animation-core-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a7d4b83e3bad5f23d45a94bdb6f10c5e/transformed/jetified-animation-core-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a7d4b83e3bad5f23d45a94bdb6f10c5e/transformed/jetified-animation-core-1.0.0-alpha07/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a7d4b83e3bad5f23d45a94bdb6f10c5e/transformed/jetified-animation-core-1.0.0-alpha07/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1a8ebbb55e8e64aa5ba844e69a3ca7ad/transformed/jetified-animation-core-1.0.0-alpha07/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1a8ebbb55e8e64aa5ba844e69a3ca7ad/transformed/jetified-animation-core-1.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1a8ebbb55e8e64aa5ba844e69a3ca7ad/transformed/jetified-animation-core-1.0.0-alpha07/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

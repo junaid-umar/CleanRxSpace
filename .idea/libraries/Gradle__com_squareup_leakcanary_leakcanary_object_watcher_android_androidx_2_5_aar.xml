@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.5@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fb53cfb0e47c2b0a0cef671d5277bfba/transformed/jetified-leakcanary-object-watcher-android-androidx-2.5/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/caee3a4af1f57a812a04a1eb8437c835/transformed/jetified-leakcanary-object-watcher-android-androidx-2.5/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/734cd7edc4767fb7722be094c2970b39/transformed/jetified-leakcanary-object-watcher-android-androidx-2.5/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/286209ef75c5bec83d8835c3f09ce841/transformed/jetified-leakcanary-object-watcher-android-androidx-2.5/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/286209ef75c5bec83d8835c3f09ce841/transformed/jetified-leakcanary-object-watcher-android-androidx-2.5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/286209ef75c5bec83d8835c3f09ce841/transformed/jetified-leakcanary-object-watcher-android-androidx-2.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/67733f5149b076ebba64439152835a53/transformed/jetified-leakcanary-object-watcher-android-androidx-2.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/67733f5149b076ebba64439152835a53/transformed/jetified-leakcanary-object-watcher-android-androidx-2.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/67733f5149b076ebba64439152835a53/transformed/jetified-leakcanary-object-watcher-android-androidx-2.5/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-object-watcher-android-androidx/2.5/b9bfef6fee56d2120713991b1fab188e7494568b/leakcanary-object-watcher-android-androidx-2.5-javadoc.jar!/" />

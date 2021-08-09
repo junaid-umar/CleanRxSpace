@@ -1,37 +1,43 @@
 package com.android.space.data.network.datasource
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.android.space.data.network.api.BlogService
 import com.android.space.data.network.util.CustomDispatcher
-import com.android.space.data.network.util.MockNetworkConfig
-import com.android.space.data.network.util.NetworkHelper
 import com.android.space.data.persistence.FakeDataUtil
 import com.android.space.domain.model.Resource
 import com.google.common.truth.Truth.assertThat
+import dagger.hilt.android.testing.HiltAndroidRule
+import dagger.hilt.android.testing.HiltAndroidTest
 import okhttp3.mockwebserver.MockWebServer
 import org.junit.After
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
+import javax.inject.Inject
+import javax.inject.Named
 
 
+@HiltAndroidTest
 class BlogRemoteDataSourceImplTest {
+
+    @get:Rule
+    val hiltRule = HiltAndroidRule(this)
 
     @get:Rule
     val instantTaskExecutorRule = InstantTaskExecutorRule()
 
-    private lateinit var mockServer: MockWebServer
-    private lateinit var blogService: BlogService
-    private lateinit var blogRemoteDataSource: BlogRemoteDataSourceImpl
+
+    @Inject
+    lateinit var mockServer: MockWebServer
+
+
+    @Inject
+    lateinit var blogRemoteDataSource: BlogRemoteDataSourceImpl
+
 
 
     @Before
     fun setUp() {
-        mockServer = MockWebServer()
-        mockServer.dispatcher = CustomDispatcher()
-        mockServer.start()
-
-
+        hiltRule.inject()
     }
 
     @After
@@ -41,8 +47,6 @@ class BlogRemoteDataSourceImplTest {
 
     @Test
     fun searchBlogsWithValidQuery_returnsBlogs() {
-        getMockApi(MockNetworkConfig.baseUrl)
-
 
         val output = blogRemoteDataSource.searchBlogs(
             FakeDataUtil.Common.pageSize,
@@ -59,8 +63,7 @@ class BlogRemoteDataSourceImplTest {
      *MockRestAdapter should be used to stimulate Server errors
      */
     @Test
-    fun searchBlogs_returnsHostError() {
-        getMockApi(MockNetworkConfig.randomBaseUrl)
+    fun searchBlogs_NoNetwork_returnsTimeOutError() {
 
 
         val output = blogRemoteDataSource.searchBlogs(
@@ -71,11 +74,5 @@ class BlogRemoteDataSourceImplTest {
 
         assertThat(output).isInstanceOf(Resource.Error::class.java)
     }
-
-    private fun getMockApi(baseUrl: String) {
-        blogService = NetworkHelper.getMockApi(baseUrl)
-        blogRemoteDataSource = BlogRemoteDataSourceImpl(blogService)
-    }
-
 
 }

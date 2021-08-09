@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.runtime:runtime-dispatch:1.0.0-alpha07@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6afffe3e64ad6fdb815a1642aa740fe9/transformed/jetified-runtime-dispatch-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/de1be43c84e60215867726ab6f33afe4/transformed/jetified-runtime-dispatch-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/06ca0d386d141d29d708339eef60dff9/transformed/jetified-runtime-dispatch-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/72035403d6e6a2643d3a0b21f579358a/transformed/jetified-runtime-dispatch-1.0.0-alpha07/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/72035403d6e6a2643d3a0b21f579358a/transformed/jetified-runtime-dispatch-1.0.0-alpha07/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/72035403d6e6a2643d3a0b21f579358a/transformed/jetified-runtime-dispatch-1.0.0-alpha07/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8c8c3f74cb25ce6110108ccb2e07407f/transformed/jetified-runtime-dispatch-1.0.0-alpha07/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8c8c3f74cb25ce6110108ccb2e07407f/transformed/jetified-runtime-dispatch-1.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8c8c3f74cb25ce6110108ccb2e07407f/transformed/jetified-runtime-dispatch-1.0.0-alpha07/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

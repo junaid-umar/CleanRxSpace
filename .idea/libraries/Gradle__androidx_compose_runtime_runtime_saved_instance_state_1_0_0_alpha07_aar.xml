@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.runtime:runtime-saved-instance-state:1.0.0-alpha07@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/eb2bc9237b1fac12125b3e719b05258e/transformed/jetified-runtime-saved-instance-state-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7fb2cba4ce4ba321a2b4bd591659057d/transformed/jetified-runtime-saved-instance-state-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0b363cf52767a09062288fbbfd4076fa/transformed/jetified-runtime-saved-instance-state-1.0.0-alpha07/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b1ed1faa73fb3c996a193e844ecc4851/transformed/jetified-runtime-saved-instance-state-1.0.0-alpha07/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b1ed1faa73fb3c996a193e844ecc4851/transformed/jetified-runtime-saved-instance-state-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b1ed1faa73fb3c996a193e844ecc4851/transformed/jetified-runtime-saved-instance-state-1.0.0-alpha07/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/52c1c85554eae1d42e28a00e5c708c93/transformed/jetified-runtime-saved-instance-state-1.0.0-alpha07/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/52c1c85554eae1d42e28a00e5c708c93/transformed/jetified-runtime-saved-instance-state-1.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/52c1c85554eae1d42e28a00e5c708c93/transformed/jetified-runtime-saved-instance-state-1.0.0-alpha07/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -11,6 +11,10 @@ class CustomDispatcher : Dispatcher() {
                 MockResponse().setResponseCode(MockNetworkConfig.status)
                     .setBody(MockWebServiceResponse.searchBlogResponse)
             }
+            MockNetworkConfig.randomBaseUrl -> {
+                MockResponse().setResponseCode(MockNetworkConfig.status)
+                    .setBody(MockWebServiceResponse.searchBlogResponse)
+            }
             else -> throw Exception("Unable to find ${request.path}")
         }
     }
