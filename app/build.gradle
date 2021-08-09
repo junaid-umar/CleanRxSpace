@@ -1,13 +1,14 @@
+import dependencies.AndroidX
 import dependencies.Test
 import dependencies.Versions
-import dependencies.AndroidX
 
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
-    id "de.mannodermaus.android-junit5"
+    id 'de.mannodermaus.android-junit5'
+    id 'kotlinx-serialization'
 }
 
 android {
@@ -24,10 +25,18 @@ android {
     }
 
     buildTypes {
+        debug {
+            buildConfigField "String", "BASE_URL", '"https://api.spaceflightnewsapi.net/v3/"'
+        }
+
         release {
+            buildConfigField "String", "BASE_URL", '"https://api.spaceflightnewsapi.net/v3/"'
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+    }
+    buildFeatures {
+        buildConfig = true
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -45,33 +54,54 @@ dependencies {
     implementation AndroidX.app_compat
     implementation AndroidX.constraint_layout
     implementation AndroidX.ui_tooling
-    implementation AndroidX.nav_fragment_ktx // will remove later
-    implementation AndroidX.nav_ui_ktx // will remove later
-    implementation AndroidX.room_runtime
-    implementation AndroidX.room_ktx
-    implementation AndroidX.datastore
+    implementation AndroidX.nav_fragment_ktx
+    implementation AndroidX.nav_ui_ktx
 
     implementation AndroidX.material
+
+    implementation AndroidX.room_runtime
+    implementation AndroidX.room_ktx
+
+    implementation AndroidX.datastore
+
+
     implementation AndroidX.hilt_android
+    kapt AndroidX.hilt_compiler
+
 
     implementation AndroidX.kotlin_stdlib
+    implementation AndroidX.kotlinx_serialization
+
+    implementation AndroidX.room_rxjava
+    kapt AndroidX.room_compiler
 
     implementation AndroidX.rxjava
+    implementation AndroidX.rxandroid
+    implementation AndroidX.rxjava_adapter
 
     implementation AndroidX.retrofit
     implementation AndroidX.retrofit_gson
+
     implementation AndroidX.okHttp
+    implementation AndroidX.okHttp_logging_interceptor
+
     implementation AndroidX.leak_canary
 
-    kapt AndroidX.hilt_compiler
-    kapt AndroidX.room_compiler
 
     // TESTING
+    testImplementation Test.jupiter_engine
     testImplementation Test.jupiter_api
-    testRuntimeOnly Test.jupiter_engine
-    testImplementation Test.mock_web_server
     testImplementation Test.truth_google
     testImplementation Test.mockito
+
+    androidTestImplementation Test.truth_google
+    androidTestImplementation Test.junit4
+    androidTestImplementation Test.test_core
+    androidTestImplementation Test.mock_web_server
+
+    implementation Test.test_runner
+
+    androidTestImplementation Test.core_testing
 
 
 }

@@ -1,13 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.datastore:datastore:1.0.0-alpha06@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1f6a747a66ea5db9af70c09c5f61099c/transformed/jetified-datastore-1.0.0-alpha06/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c3936e009b94be5da13b1c292300fcb1/transformed/jetified-datastore-1.0.0-alpha06/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d4206fa074041f8cf572797a2fb5a079/transformed/jetified-datastore-1.0.0-alpha06/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/61224ab0673d3831afb51a5bfea33dcb/transformed/jetified-datastore-1.0.0-alpha06/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/de41286a1a0104f1b9367546c8a4f881/transformed/jetified-datastore-1.0.0-alpha06/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/de41286a1a0104f1b9367546c8a4f881/transformed/jetified-datastore-1.0.0-alpha06/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/de41286a1a0104f1b9367546c8a4f881/transformed/jetified-datastore-1.0.0-alpha06/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7a5921aaa553ca5b23d988b3bf35c6b1/transformed/jetified-datastore-1.0.0-alpha06/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/de0beae91114e8df72b86dc6cb2175f4/transformed/jetified-datastore-1.0.0-alpha06/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/20f12489273162e534fdbe0f2f4848e9/transformed/jetified-datastore-1.0.0-alpha06/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/38f4bf3a790d88f458416434eb84c865/transformed/jetified-datastore-1.0.0-alpha06/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/38f4bf3a790d88f458416434eb84c865/transformed/jetified-datastore-1.0.0-alpha06/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/38f4bf3a790d88f458416434eb84c865/transformed/jetified-datastore-1.0.0-alpha06/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

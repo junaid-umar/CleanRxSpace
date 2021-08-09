@@ -1,13 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.ui:ui-graphics:1.0.0-alpha07@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ffaba4a357b078283f8dfe5da78b73f2/transformed/jetified-ui-graphics-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7c9b6fe7c4666aef582a12ba9a24e8a8/transformed/jetified-ui-graphics-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3dd6653edbf9c18daa77e24fd814f592/transformed/jetified-ui-graphics-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0e742c73b97f5a99c1dd705b0e36c20e/transformed/jetified-ui-graphics-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d6826551c7d3ccefd2d76929aa202853/transformed/jetified-ui-graphics-1.0.0-alpha07/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d6826551c7d3ccefd2d76929aa202853/transformed/jetified-ui-graphics-1.0.0-alpha07/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d6826551c7d3ccefd2d76929aa202853/transformed/jetified-ui-graphics-1.0.0-alpha07/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/89754fcad9bf8536328046d9994a3cbd/transformed/jetified-ui-graphics-1.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/40d24a9520ec27f207080bdd93df3862/transformed/jetified-ui-graphics-1.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4e65affa50bad3ac05286cfe1fca5d91/transformed/jetified-ui-graphics-1.0.0-alpha07/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a46424ba17e1932b2fe61f6aece170be/transformed/jetified-ui-graphics-1.0.0-alpha07/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a46424ba17e1932b2fe61f6aece170be/transformed/jetified-ui-graphics-1.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a46424ba17e1932b2fe61f6aece170be/transformed/jetified-ui-graphics-1.0.0-alpha07/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

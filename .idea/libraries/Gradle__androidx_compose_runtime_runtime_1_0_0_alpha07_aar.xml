@@ -1,13 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.runtime:runtime:1.0.0-alpha07@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/024b5e32aa0fa2e3fe49a8d20e1931f9/transformed/jetified-runtime-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/02eb20bb0250db558d1d7b4aa281ef9b/transformed/jetified-runtime-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a9da5b32fb68723d3651ead5524c2f1f/transformed/jetified-runtime-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/798c833b79510a367c2a1e028957ac78/transformed/jetified-runtime-1.0.0-alpha07/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7fbb1c0f22c4de65ee1a138b53e9ba72/transformed/jetified-runtime-1.0.0-alpha07/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7fbb1c0f22c4de65ee1a138b53e9ba72/transformed/jetified-runtime-1.0.0-alpha07/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7fbb1c0f22c4de65ee1a138b53e9ba72/transformed/jetified-runtime-1.0.0-alpha07/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/14a3997cd76ae9a6c8c9c6672d1d6895/transformed/jetified-runtime-1.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5f94e837d5fd210153555be4f15f16bd/transformed/jetified-runtime-1.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/54a47a43ba5685e61fe3c5a5de950632/transformed/jetified-runtime-1.0.0-alpha07/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ba868686cb9462e471c250998b2679ef/transformed/jetified-runtime-1.0.0-alpha07/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ba868686cb9462e471c250998b2679ef/transformed/jetified-runtime-1.0.0-alpha07/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ba868686cb9462e471c250998b2679ef/transformed/jetified-runtime-1.0.0-alpha07/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

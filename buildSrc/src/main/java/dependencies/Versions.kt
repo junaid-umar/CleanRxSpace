@@ -25,15 +25,22 @@ object Versions {
     const val okHttp = "4.9.0"
 
     const val rxjava = "3.0.0"
+    const val rxandroid = "3.0.0"
+    const val rxjava_adapter = "2.9.0"
 
-    const val room = "2.2.6"
+    const val room = "2.3.0"
+    const val kotlinx_serialization = "1.2.2"
     const val datastore = "1.0.0-alpha06"
 
     const val leak_canary = "2.5"
 
     const val junit5 = "1.7.1.1"
+    const val junit4 = "1.1.1"
     const val junit_jupiter = "5.7.0"
     const val truth = "1.1.3"
     const val mockito = "1.10.19"
+    const val test_core = "1.4.0"
+    const val core_testing = "1.1.1"
+
 
 }

@@ -1,60 +1,51 @@
 package com.android.space.domain.util
 
 
+import com.android.space.FakeDataUtil
 import com.google.common.truth.Truth.assertThat
 import org.junit.jupiter.api.Test
-import java.text.SimpleDateFormat
 
 
 class DateUtilTest {
 
-    private val stringDate = "2021-07-31T21:50:11.265Z"
-    private val format = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
-    private val date = format.parse(stringDate)
-    private val longDate = date!!.time
-
-
-    /*
-    * converts string to date
-    * */
 
     @Test
-    internal fun `string returns date`() {
+    fun `correct string returns date`() {
+        val input = FakeDataUtil.Date.stringDate
+        val output = FakeDataUtil.Date.date
         val result = DateUtil.stringToDate(
-            stringDate
+            input
         )
-        assertThat(result).isEqualTo(date)
+        assertThat(result).isEqualTo(output)
 
     }
 
-    /*
-    * converts date to long
-    * */
-    @Test
-    internal fun `date returns long`() {
-        val result = DateUtil.dateToLong(date)
 
-        assertThat(result).isEqualTo(longDate)
+    @Test
+    fun `date returns long`() {
+        val input = FakeDataUtil.Date.date
+        val output = FakeDataUtil.Date.longDate
+        val result = DateUtil.dateToLong(input)
+
+        assertThat(result).isEqualTo(output)
     }
 
 
-    /*
-    * converts date to string
-    * */
     @Test
-    internal fun `date returns string`() {
-        val result = DateUtil.dateToString(date)
+    fun `date returns string`() {
+        val input = FakeDataUtil.Date.date
+        val output = FakeDataUtil.Date.stringDate
+        val result = DateUtil.dateToString(input)
 
-        assertThat(result).isEqualTo(stringDate)
+        assertThat(result).isEqualTo(output)
     }
 
-    /*
-    * converts long to date
-    * */
     @Test
-    internal fun `long returns date`() {
-        val result = DateUtil.longToDate(longDate)
+    fun `long returns date`() {
+        val input = FakeDataUtil.Date.longDate
+        val output = FakeDataUtil.Date.date
+        val result = DateUtil.longToDate(input)
 
-        assertThat(result).isEqualTo(date)
+        assertThat(result).isEqualTo(output)
     }
 }

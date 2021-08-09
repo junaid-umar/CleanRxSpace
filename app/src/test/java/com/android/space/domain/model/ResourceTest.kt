@@ -10,7 +10,7 @@ class ResourceTest {
 
 
     @Test
-    internal fun `transformed data returns resource success`() {
+     fun `transformed data returns resource success`() {
         val successResource = Resource.Success(data)
 
         val transformedResource = successResource.transform { it.plus(it) }
@@ -19,7 +19,7 @@ class ResourceTest {
     }
 
     @Test
-    internal fun `transformed data returns resource error`() {
+     fun `transformed data returns resource error`() {
         val errorResource = Resource.Error(message, data)
 
         val transformedResource = errorResource.transform { data.plus(data) }
@@ -29,7 +29,7 @@ class ResourceTest {
     }
 
     @Test
-    internal fun `transformed data returns resource loading`() {
+     fun `transformed data returns resource loading`() {
         val loadingResource = Resource.Loading(data)
 
         val transformedResource = loadingResource.transform { data.plus(data) }
