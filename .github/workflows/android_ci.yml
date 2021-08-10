@@ -70,7 +70,7 @@ jobs:
       - name: Build Debug APK
         run: bash ./gradlew assembleDebug --stacktrace
 
-      - name: Upload Release APK
+      - name: Upload Debug APK
         uses: actions/upload-artifact@v2
         with:
           name: apk
