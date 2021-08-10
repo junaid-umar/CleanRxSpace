@@ -54,7 +54,7 @@ jobs:
           path: ./build/reports/androidTests/connected
 
   apk:
-    name: Generate APK
+    name: Generate Debug APK
     runs-on: ubuntu-18.04
 
     steps:
@@ -67,11 +67,11 @@ jobs:
           distribution: 'adopt'
           java-version: '11'
 
-      - name: Build Release APK
-        run: bash ./gradlew assembleRelease --stacktrace
+      - name: Build Debug APK
+        run: bash ./gradlew assembleDebug --stacktrace
 
       - name: Upload Release APK
         uses: actions/upload-artifact@v2
         with:
           name: apk
-          path: build/outputs/apk/release/release.apk
+          path: app/build/outputs/apk/debug/**.apk
