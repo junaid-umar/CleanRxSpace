@@ -17,7 +17,7 @@ jobs:
           java-version: '11'
 
       - name: Run Unit Tests
-        run: ./gradlew testDebugTestUnitTest
+        run: ./gradlew testDebugUnitTest
 
   instrumented-tests:
     name: Run Android Tests
