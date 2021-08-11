@@ -25,7 +25,6 @@ object AndroidX {
     const val room_compiler = "androidx.room:room-compiler:${Versions.room}"
     const val room_rxjava = "androidx.room:room-rxjava3:${Versions.room}"
 
-    const val datastore = "androidx.datastore:datastore-preferences:${Versions.datastore}"
 
 
 
@@ -34,6 +33,7 @@ object AndroidX {
 
     const val kotlin_stdlib = "org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}"
     const val kotlinx_serialization = "org.jetbrains.kotlinx:kotlinx-serialization-json:${Versions.kotlinx_serialization}"
+    const val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
 
 
     const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
