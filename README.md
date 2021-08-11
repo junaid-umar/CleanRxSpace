@@ -48,4 +48,4 @@ This applications has continuous integration using GitHub actions
 
 ## Backlog
 
-UI Test and UI improvement 
+UI Test and UI improvement(Paging & Searching)
