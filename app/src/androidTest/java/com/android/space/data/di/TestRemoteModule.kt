@@ -62,7 +62,7 @@ class TestRemoteModule {
     @Singleton
     @Provides
     fun provideRetrofit(okHttpClient: OkHttpClient, mockWebServer: MockWebServer): Retrofit {
-        return Retrofit.Builder().baseUrl(mockWebServer.url(MockNetworkConfig.randomBaseUrl))
+        return Retrofit.Builder().baseUrl(mockWebServer.url(MockNetworkConfig.baseUrl))
             .client(okHttpClient)
             .addCallAdapterFactory(RxJava3CallAdapterFactory.create())
             .addConverterFactory(GsonConverterFactory.create())
