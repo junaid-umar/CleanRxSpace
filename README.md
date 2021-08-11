@@ -28,7 +28,7 @@ This layer contains android specific code. it handles user interactions and acti
 
 
 ## Test
-This applications is covered unit and integration test. 
+This applications is covered with unit and integration test. 
 
 ## CI
 This applications has continuous integration using GitHub actions
