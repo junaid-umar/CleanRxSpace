@@ -1,7 +1,7 @@
 package com.android.space.data.di
 
 import android.content.Context
-import com.android.space.presentation.BaseApplication
+import com.android.space.presentation.SpaceApplication
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -14,7 +14,7 @@ import javax.inject.Singleton
 class AppModule {
     @Singleton
     @Provides
-    fun provideApplication(@ApplicationContext app: Context): BaseApplication {
-        return app as BaseApplication
+    fun provideApplication(@ApplicationContext app: Context): SpaceApplication {
+        return app as SpaceApplication
     }
 }

@@ -6,7 +6,7 @@ import com.android.space.data.persistence.database.AppDatabase
 import com.android.space.data.persistence.datasource.BlogPersistenceDataSourceImpl
 import com.android.space.data.persistence.entity.BlogEntityMapper
 import com.android.space.data.persistence.datasource.BlogPersistenceDataSource
-import com.android.space.presentation.BaseApplication
+import com.android.space.presentation.SpaceApplication
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -19,7 +19,7 @@ class PersistenceModule {
 
     @Singleton
     @Provides
-    fun provideDb(app: BaseApplication): AppDatabase {
+    fun provideDb(app: SpaceApplication): AppDatabase {
         return Room.databaseBuilder(
             app,
             AppDatabase::class.java,

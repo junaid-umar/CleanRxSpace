@@ -14,3 +14,9 @@ fun <T, R> Resource<T>.transform(
     is Error -> Error(message, data?.let { transform.invoke(it) })
     is Loading -> Loading(data?.let { transform.invoke(it) })
 }
+
+fun <T> Resource<T>.getData()= when(this){
+    is Success -> data
+    is Error -> data
+    is Loading -> data
+}

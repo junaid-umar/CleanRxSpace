@@ -36,7 +36,8 @@ android {
         }
     }
     buildFeatures {
-        buildConfig = true
+        buildConfig true
+        dataBinding true
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -67,7 +68,6 @@ dependencies {
     implementation AndroidX.room_runtime
     implementation AndroidX.room_ktx
 
-    implementation AndroidX.datastore
 
 
     implementation AndroidX.hilt_android
@@ -76,6 +76,8 @@ dependencies {
 
     implementation AndroidX.kotlin_stdlib
     implementation AndroidX.kotlinx_serialization
+
+    implementation AndroidX.glide
 
     implementation AndroidX.room_rxjava
     kapt AndroidX.room_compiler
